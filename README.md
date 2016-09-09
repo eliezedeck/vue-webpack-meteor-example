@@ -1,4 +1,4 @@
-# Webpack + Vue + Meteor Example
+# Webpack + Vue + Meteor
 
 Simple projet that helps you start-up with modern Vue with Meteor, while leveraging the normal
 Webpack + NPM workflow for your front-end.
@@ -16,6 +16,10 @@ meteor
 ```
 
 ## How it works
+
+The key is in the *hidden* folder `/.client`. Well, for IDEs and editors (such as WebStorm and
+Atom) it is not a hidden folder. They are aware of the fact that many projects use files and
+folders beginning with dots.
 
 **NOTE:** The `/` directory in this explanation means the root of this project, not your
 system's root folder.
