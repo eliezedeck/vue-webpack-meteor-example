@@ -1,11 +1,11 @@
-var path = require('path')
+var path = require('path');
 
 module.exports = {
   entry: "./main.js",
   output: {
     path: path.resolve(__dirname, '../public'),
     publicPath: '/',
-    filename: "build.js"
+    filename: "pack.js"
   },
   module: {
     loaders: [
@@ -14,4 +14,4 @@ module.exports = {
     ]
   },
   devtool: 'inline-source-map'
-}
+};
